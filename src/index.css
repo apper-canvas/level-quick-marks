@@ -31,16 +31,16 @@
     min-height: 48px;
   }
   
-  .Toastify__toast--success {
-    background: #51CF66;
+.Toastify__toast--success {
+    background: #059669;
   }
   
   .Toastify__toast--error {
-    background: #FF6B6B;
+    background: #DC2626;
   }
   
   .Toastify__toast--info {
-    background: #5B7FFF;
+    background: #0369A1;
   }
   
   .Toastify__progress-bar--success {
