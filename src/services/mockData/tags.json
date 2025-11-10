@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 1,
+    "name": "development",
+    "color": "#5B7FFF",
+    "count": 1
+  },
+  {
+    "Id": 2,
+    "name": "git",
+    "color": "#8B5FFF",
+    "count": 1
+  },
+  {
+    "Id": 3,
+    "name": "coding",
+    "color": "#51CF66",
+    "count": 1
+  },
+  {
+    "Id": 4,
+    "name": "css",
+    "color": "#FFA94D",
+    "count": 1
+  },
+  {
+    "Id": 5,
+    "name": "framework",
+    "color": "#FF6B6B",
+    "count": 1
+  },
+  {
+    "Id": 6,
+    "name": "design",
+    "color": "#B197FC",
+    "count": 2
+  },
+  {
+    "Id": 7,
+    "name": "react",
+    "color": "#74C0FC",
+    "count": 1
+  },
+  {
+    "Id": 8,
+    "name": "javascript",
+    "color": "#FFD43B",
+    "count": 1
+  },
+  {
+    "Id": 9,
+    "name": "frontend",
+    "color": "#63E6BE",
+    "count": 1
+  },
+  {
+    "Id": 10,
+    "name": "inspiration",
+    "color": "#FFABF0",
+    "count": 1
+  },
+  {
+    "Id": 11,
+    "name": "ui",
+    "color": "#ADB5BD",
+    "count": 1
+  },
+  {
+    "Id": 12,
+    "name": "programming",
+    "color": "#748FFC",
+    "count": 1
+  },
+  {
+    "Id": 13,
+    "name": "help",
+    "color": "#96F2D7",
+    "count": 1
+  },
+  {
+    "Id": 14,
+    "name": "community",
+    "color": "#FFE066",
+    "count": 1
+  }
+]
