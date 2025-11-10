@@ -17,9 +17,9 @@ theme: {
         error: "#DC2626",
         info: "#0369A1"
       },
-      fontFamily: {
-        'display': ['Outfit', 'system-ui', 'sans-serif'],
-        'body': ['Inter', 'system-ui', 'sans-serif'],
+fontFamily: {
+        'display': ['Proxima Nova', 'system-ui', 'sans-serif'],
+        'body': ['Proxima Nova', 'system-ui', 'sans-serif'],
         'mono': ['Monaco', 'Consolas', 'monospace']
       },
       animation: {
