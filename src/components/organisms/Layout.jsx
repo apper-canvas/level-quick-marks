@@ -55,7 +55,7 @@ const handleSearch = (query) => {
         )}
       >
         {/* Header */}
-        <div className="p-6 border-b border-gray-200">
+<div className="p-4 border-b border-gray-200">
           <div className="flex items-center justify-between">
             <motion.div
               className="flex items-center space-x-3"
@@ -67,7 +67,7 @@ const handleSearch = (query) => {
               </div>
               {(sidebarOpen || window.innerWidth < 1024) && (
                 <div>
-                  <h1 className="text-xl font-bold text-gray-900 font-display bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+<h1 className="text-lg font-bold text-gray-900 font-display bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                     Quick Marks
                   </h1>
                   <p className="text-xs text-gray-500">Bookmark Manager</p>
@@ -98,9 +98,9 @@ const handleSearch = (query) => {
         </div>
 
         {/* Search Section */}
-        <motion.div
-          className="p-4 border-b border-gray-200"
-          animate={{ 
+<motion.div
+          className="p-3 border-b border-gray-200"
+          animate={{
             opacity: (sidebarOpen || mobileMenuOpen) ? 1 : 0,
             height: (sidebarOpen || mobileMenuOpen) ? 'auto' : '0'
           }}
@@ -116,7 +116,7 @@ const handleSearch = (query) => {
         </motion.div>
 
         {/* Navigation */}
-        <nav className="flex-1 p-4">
+<nav className="flex-1 p-3">
           <motion.div
             animate={{ opacity: (sidebarOpen || mobileMenuOpen) ? 1 : 0 }}
             transition={{ duration: 0.2 }}
@@ -162,13 +162,13 @@ const handleSearch = (query) => {
         </nav>
 
         {/* Footer */}
-        <motion.div
-          className="p-4 border-t border-gray-200"
+<motion.div
+          className="p-3 border-t border-gray-200"
           animate={{ opacity: (sidebarOpen || mobileMenuOpen) ? 1 : 0 }}
           transition={{ duration: 0.2 }}
         >
           {(sidebarOpen || window.innerWidth < 1024) && (
-            <div className="text-xs text-gray-500 text-center">
+            <div className="text-xs text-gray-400 text-center">
               Save, organize, and find your favorite web links instantly
             </div>
           )}

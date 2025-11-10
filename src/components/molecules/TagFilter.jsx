@@ -13,7 +13,7 @@ const TagFilter = ({
   const hasActiveFilters = selectedTags.length > 0
   
   return (
-    <div className={`space-y-3 ${className}`}>
+<div className={`space-y-2.5 ${className}`}>
       {/* Active filters */}
       <AnimatePresence>
         {hasActiveFilters && (
@@ -56,14 +56,14 @@ const TagFilter = ({
       {/* Available tags */}
       {tags.length > 0 && (
         <div>
-          <div className="flex items-center gap-2 mb-3">
+<div className="flex items-center gap-1.5 mb-2.5">
             <ApperIcon name="Filter" size={16} className="text-gray-400" />
             <span className="text-sm font-medium text-gray-600">
               Filter by tags:
             </span>
           </div>
           
-          <div className="flex flex-wrap gap-2 max-h-24 overflow-y-auto">
+<div className="flex flex-wrap gap-1.5 max-h-20 overflow-y-auto">
             {tags
               .filter(tag => !selectedTags.includes(tag.name))
               .sort((a, b) => b.count - a.count)

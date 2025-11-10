@@ -194,13 +194,13 @@ const HomePage = () => {
 <div className="p-6">
         {hasBookmarks ? (
           <>
-            {/* Filters */}
+{/* Filters */}
             <TagFilter
               tags={tags}
               selectedTags={selectedTags}
               onTagSelect={handleTagSelect}
               onClearFilters={handleClearFilters}
-              className="mb-8"
+              className="mb-6"
             />
             
             {/* Results */}

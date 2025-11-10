@@ -26,7 +26,7 @@ const TagPill = ({
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.98 }}
       className={cn(
-        "inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium cursor-pointer transition-all duration-200 border",
+"inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-sm font-medium cursor-pointer transition-all duration-200 border",
         isSelected
           ? "border-current shadow-md"
           : "border-transparent hover:shadow-sm",
@@ -46,7 +46,7 @@ const TagPill = ({
       
       {showCount && tag.count !== undefined && (
         <span className={cn(
-          "px-1.5 py-0.5 text-xs rounded-full",
+"px-1 py-0.5 text-xs rounded-full",
           isSelected ? "bg-white/20" : "bg-current/20"
         )}>
           {tag.count}
