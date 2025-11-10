@@ -188,29 +188,10 @@ const HomePage = () => {
   const hasActiveFilters = searchQuery.trim() || selectedTags.length > 0
   
   return (
-    <div className="min-h-screen bg-background">
-      {/* Header */}
-      <div className="bg-white border-b border-gray-200 sticky top-0 z-30 backdrop-blur-sm bg-white/95">
-        <div className="container mx-auto px-4 py-6">
-          <div className="text-center mb-6">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2 font-display bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Quick Marks
-            </h1>
-            <p className="text-gray-600 text-lg">
-              Save, organize, and find your favorite web links instantly
-            </p>
-          </div>
-          
-          <SearchBar
-            onSearch={handleSearch}
-            placeholder="Search bookmarks by title, description, URL or tags..."
-            className="max-w-2xl mx-auto"
-          />
-        </div>
-      </div>
+<div className="min-h-full bg-background">
       
       {/* Main Content */}
-      <div className="container mx-auto px-4 py-8">
+<div className="p-6">
         {hasBookmarks ? (
           <>
             {/* Filters */}
